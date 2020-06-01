@@ -1,8 +1,8 @@
-# Setup Helm
+# Install Helm
 - [Prerequisite](#prerequisite)
-- [Setup Helm v3](#setup-helm-v3)
+- [Install Helm v3](#install-helm-v3)
 - [Migrate v2 to v3](#migrate-v2-to-v3)
-- [Setup Helm v2](#setup-helm-v3)
+- [Install Helm v2](#install-helm-v3)
 
 ## Prerequisite
 1. If your computers behind proxy server, you need to run the following command in advance.
@@ -10,7 +10,7 @@
    $ export http_proxy=<proxy server>:<port number>
    $ export https_proxy=$http_proxy
    ```
-## Setup Helm v3
+## Install Helm v3
 1. Download Helm package from https://github.com/helm/helm/releases/.
    ```sh
    $ curl -O  https://get.helm.sh/helm-v3.2.1-linux-amd64.tar.gz
@@ -18,7 +18,7 @@
 1. Expand archive and copy a binary file.
    ```sh
    $ tar xzvf helm-v3.2.1-linux-amd64.tar.gz
-   $ cp linux-amd64/helm /usr/local/bin
+   $ sudo cp linux-amd64/helm /usr/local/bin
    ```
 1. Check Helm version.
    ```sh
@@ -35,7 +35,7 @@
    prom-operator   monitoring      1               2020-04-06 04:45:26.170544706 +0000 UTC deployed        prometheus-operator-8.12.8      0.37.0
    ```
 
-## Setup Helm v2
+## Install Helm v2
 1. Download Helm package from https://github.com/helm/helm/releases/.
    ```sh
    $ curl -O https://get.helm.sh/helm-v2.16.5-linux-amd64.tar.gz

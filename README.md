@@ -1,4 +1,4 @@
 # Helm
 
-## Setup Helm
-- Please refer to [Setup Helm](https://github.com/EXPRESSCLUSTER/Helm/blob/master/SetupHelm.md).
+## Install Helm
+- It is very easy. Please refer to [Install Helm](https://github.com/EXPRESSCLUSTER/Helm/blob/master/InstallHelm.md).
